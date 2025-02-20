@@ -1,0 +1,6 @@
+(opt variant {
+  Init = record { 
+    ledger_id = principal "LEDGER_PRINCIPAL";
+    retrieve_blocks_from_ledger_interval_seconds = opt 5 
+  }
+})

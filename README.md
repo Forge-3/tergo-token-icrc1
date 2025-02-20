@@ -1,0 +1,1 @@
+dfx deploy icrc1_ledger_canister --argument-file tergo-token.did

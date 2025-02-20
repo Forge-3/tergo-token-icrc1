@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "tergo_ledger_canister": {
+      "type": "custom",
+      "candid": "https://github.com/Forge-3/ic/releases/download/ledger-suite-icrc-2025-01-21/ledger.did",
+      "wasm": "https://github.com/Forge-3/ic/releases/download/ledger-suite-icrc-2025-01-21/ic-icrc1-ledger.wasm.gz"
+    },
+    "tergo_indexer_canister": {
+      "type": "custom",
+      "candid": "https://github.com/Forge-3/ic/releases/download/ledger-suite-icrc-2025-01-21/index-ng.did",
+      "wasm": "https://github.com/Forge-3/ic/releases/download/ledger-suite-icrc-2025-01-21/ic-icrc1-index-ng.wasm.gz"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
