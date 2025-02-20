@@ -85,10 +85,6 @@ dfx canister call tergo_ledger_canister icrc1_symbol
 
 Replace `tergo_ledger_canister` with the actual canister name or ID if different.
 
-### Using `ledger-icrc-js` Library
-
-For web applications, the `ledger-icrc-js` library facilitates interaction with ICRC-1 tokens. Install the library using npm:
-
 ## Additional Resources
 
 - **ICRC-1 Standard Documentation**: Detailed specifications of the ICRC-1 token standard. [Read More](https://internetcomputer.org/docs/current/references/icrc1-standard)
